@@ -1,7 +1,15 @@
 //your JS code here. If required.
-const circles = document.querySelectorAll(".circle");
 const nextButton = document.getElementById("next");
 const prevButton = document.getElementById("prev");
+
+// Get all circles by their ids
+const circles = [
+  document.getElementById("circle-1"),
+  document.getElementById("circle-2"),
+  document.getElementById("circle-3"),
+  document.getElementById("circle-4"),
+  document.getElementById("circle-5")
+];
 
 let currentIndex = 0;
 
